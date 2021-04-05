@@ -1,5 +1,13 @@
+var url = window.location.href;
+var swlocal = '/Chavo/sw.js';
+
+
+
 if(navigator.serviceWorker){
-    navigator.serviceWorker.register('/sw.js')
+    if(url.includes('localhost')){
+        swlocal = '/sw.js';
+    }
+    navigator.serviceWorker.register(swlocal);
 }
 
 

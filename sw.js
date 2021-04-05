@@ -10,7 +10,7 @@ const DYNAMIC_CACHE = "dinamyc-v1";
 const INMUTABLE_CACHE = "inmutable-v1";
 
 const APP_SHELL =[ //corazon de la aplicacion, appshel estatico
-    '/',
+    //'/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
